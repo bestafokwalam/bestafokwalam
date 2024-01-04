@@ -1,0 +1,34 @@
+.progressbar {
+    height: 150px;
+    width: 100%;
+}
+
+.iconcontainer{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.technologiesicon{
+    width: 100px;
+}
+.technologiesicon.solid{
+    width: 60px;
+}
+.technologiesicon.flutter{
+    width: 60px;
+}
+
+.hashnodelogo{
+    width: 15px;
+}
+
+.form-control{
+ border-radius: 25px !important;
+}
+
+.btn-main{
+    border-radius: 25px !important;
+}
