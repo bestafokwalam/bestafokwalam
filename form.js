@@ -13,7 +13,7 @@ $(function()
         };
     
         const serviceId = "service_os8lezp";
-        const templateId = "template_ujzw61g";
+        const templateId = "template_imznn8j";
     
         emailjs.send(serviceId, templateId, params)
         .then(res => {
@@ -36,6 +36,7 @@ $(function()
                 }, 5000);
         })                
         .catch((err) => {
+            console.log(err);
             $('#error_message').append('<ul></ul>');
 
             $('#error_message ul').append('<li>'+err+'</li>');
